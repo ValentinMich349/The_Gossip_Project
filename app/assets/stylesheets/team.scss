@@ -1,0 +1,32 @@
+/* Styles pour la page d'équipe */
+.team-member {
+    padding: 30px;
+    background-color: #f8f8f8;
+    border: 1px solid #ddd;
+    margin-bottom: 30px;
+  }
+  
+  .team-member:hover {
+    background-color: #660066;
+    color: #fff;
+  }
+  
+  .team-member h3 {
+    margin-top: 15px;
+    margin-bottom: 5px;
+  }
+  
+  .team-member p {
+    margin-bottom: 15px;
+  }
+  
+  .social-links a {
+    color: #660066;
+    font-size: 24px;
+    margin-right: 10px;
+  }
+  
+  .social-links a:hover {
+    color: #530053;
+  }
+  

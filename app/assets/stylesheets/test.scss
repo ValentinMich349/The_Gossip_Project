@@ -1,7 +1,18 @@
 /* Styles pour la page d'index */
 body {
-  background-color: #f8f8f8;
   font-family: Arial, sans-serif;
+}
+
+.navbar {
+  background-color: #660066 !important;
+}
+
+.nav-link a{
+  color: #fff;
+} 
+
+.nav-link a:hover{
+color : black;
 }
 
 .page-title {
@@ -37,4 +48,33 @@ body {
 
 .card-text {
   margin-bottom: 0;
+}
+
+
+/* Styles pour la page show */
+.table {
+  margin-top: 30px;
+}
+
+.table th {
+  background-color: #660066;
+  color: #fff;
+}
+
+.table td {
+  vertical-align: top;
+}
+
+.table td:first-child {
+  font-weight: bold;
+}
+
+.btn-primary {
+  background-color: #660066;
+  border-color: #660066;
+}
+
+.btn-primary:hover {
+  background-color: #530053;
+  border-color: #530053;
 }
