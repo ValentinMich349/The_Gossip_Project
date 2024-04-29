@@ -1,0 +1,32 @@
+.potin-card {
+    background-color: #262626;
+    border-color: #4d4d4d;
+    color: #fff;
+}
+
+.potin-card .card-header {
+    background-color: #9b59b6;
+    border-color: #8e44ad;
+}
+
+.potin-card .card-img {
+    height: 200px;
+    object-fit: cover;
+    width: 100%;
+}
+
+.potin-card .card-text {
+    color: #ccc;
+}
+
+.potin-card .btn-potin {
+    background-color: #9b59b6;
+    border-color: #8e44ad;
+    color: #fff;
+}
+
+.potin-card .btn-potin:hover {
+    background-color: #8e44ad;
+    border-color: #7b3498;
+    color: #fff;
+}

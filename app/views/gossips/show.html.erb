@@ -1,0 +1,13 @@
+<h1><%= @gossip.title %></h1>
+
+<p>
+  <strong>Auteur :</strong>
+  <%= link_to @gossip.user.first_name, user_path(@gossip.user) %>
+</p>
+
+<p><%= @gossip.content %></p>
+
+<p>
+  <strong>Créé le :</strong>
+  <%= @gossip.created_at.strftime('%d/%m/%Y à %H:%M') %>
+</p>
